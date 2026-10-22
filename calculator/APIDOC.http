@@ -1,0 +1,79 @@
+
+# API Call for Addition
+###
+POST http://127.0.0.1:8000/addition/
+content-type : application/json
+
+{
+    "num1": 50,
+    "num2": 10
+}
+
+## API Call for Subtraction
+###
+POST http://127.0.0.1:8000/subtraction/
+content-type : application/json
+
+{
+    "num1": 150,
+    "num2": 100
+}
+
+# API Call for Multiplication
+###
+POST http://127.0.0.1:8000/multiplication/
+content-type : application/json
+
+{
+    "num1": 50,
+    "num2": 10
+}
+
+# API Call for Division
+###
+POST http://127.0.0.1:8000/division/
+content-type : application/json
+
+{
+    "num1": 50,
+    "num2": 10
+}
+
+# API Call for Modulus
+###
+POST http://127.0.0.1:8000/modulus/
+content-type : application/json
+
+{
+    "num1": 50,
+    "num2": 10
+}   
+
+# API Call for BMI Calculator
+###
+POST http://127.0.0.1:8000/bmi/
+content-type : application/json
+
+{
+    "weight": 70,
+    "height": 1.75
+}
+
+# API Call for Age Calculator
+###
+POST http://127.0.0.1:8000/age/
+content-type : application/json
+
+{
+    "birth_year": 2004,
+    "current_year": 2026
+}
+
+###
+POST http://127.0.0.1:8000/percentage/
+content-type : application/json
+
+{
+    "total_marks": 500,
+    "obtained_marks": 400
+}
